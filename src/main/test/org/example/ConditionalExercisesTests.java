@@ -1,6 +1,7 @@
-import org.example.ConditionalExercises;
+package org.example;
+
 import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
+
 import static org.junit.Assert.*;
 
 public class ConditionalExercisesTests {
