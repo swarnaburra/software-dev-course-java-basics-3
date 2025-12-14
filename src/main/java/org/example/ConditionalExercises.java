@@ -1,6 +1,8 @@
 package org.example;
 
 public class ConditionalExercises {
+
+
     public boolean lessThanFive(int x) {
         // Replace the line below with code that returns true if x is less than 5, and false otherwise
         if (x < 5) {
