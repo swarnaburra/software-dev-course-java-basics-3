@@ -10,6 +10,21 @@ public class LoopExercisesTests {
         assert loopExercises.sum(10) == 55;
         assert loopExercises.sum(100) == 5050;
     }
+//Negative Test Case
+    @Test
+    public void testSum_NegativeNumber() {
+        LoopExercises loopExercises = new LoopExercises();
+
+        assert loopExercises.sum(-5) == 0;
+    }
+
+    //Edge Test Case
+    @Test
+    public void testSum_EdgeCase_Zero() {
+        LoopExercises loopExercises = new LoopExercises();
+
+        assert loopExercises.sum(0) == 0;
+    }
 
     @Test
     public void testSumUntilEven() {

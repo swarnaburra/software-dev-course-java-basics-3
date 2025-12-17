@@ -12,6 +12,25 @@ public class ConditionalExercisesTests {
         assertFalse(exercises.lessThanFive(5));
         assertFalse(exercises.lessThanFive(6));
     }
+   //Negative Test Case
+    @Test
+    public void testLessThanFive_Negative() {
+        ConditionalExercises exercises = new ConditionalExercises();
+        boolean result = exercises.lessThanFive(5);
+
+        assertEquals(false, result);
+    }
+
+    //Edge Case
+
+    @Test
+    public void testLessThanFive_EdgeCase() {
+        ConditionalExercises exercises = new ConditionalExercises();
+
+        boolean result = exercises.lessThanFive(5);
+
+        assertEquals(false, result);
+    }
 
     @Test
     public void testGetAgeGroup() {
